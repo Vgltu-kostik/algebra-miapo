@@ -4,8 +4,8 @@ class Algebra
 {
     public static void Main()
     {
-        var a = 2.8;
-        var b = 2.9;
+        var a = -2.9;
+        var b = -2.8;
         var accuracy = Math.Pow(10, -3);
         var c = FindConvergence(a, b);
         var x = (a == c) ? b : a;
